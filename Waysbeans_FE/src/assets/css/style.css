@@ -1,0 +1,425 @@
+:root {
+    --waysbeans-primary-color           : #613D2B;
+    --waysbeans-opacity-color           : #613D2B40;
+    --waysbeans-primary-font            : 'product-sans';
+    --waysbeans-opacity-font-color      : #613d2b91;
+    --waysbeans-content-header-color    : #DBB699;
+    --waysbeans-bgproduct-color         : #F6E6DA;
+    --waysbeans-fontproduct-color       : #613D2B;
+    --waysbeans-price-color             : #974A4A;
+}
+
+/* Landing Pages */
+.box-content {
+    max-width: 1080px !important;
+    margin: 50px auto;
+}
+
+.box-content-header {
+    background-color: var( --waysbeans-content-header-color);
+    width: 958px;
+    height: 420px !important;
+    /* margin-top: 5rem !important; */
+}
+
+.content-slogan {
+    font-weight: 400;
+}
+
+
+.card-body {
+    background-color: var(--waysbeans-bgproduct-color) !important;
+}
+
+/* NAVBAR & MODAL AUTH */
+.navbarRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.navbarLogo{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+}
+
+.btn-main {
+    display: flex;
+    padding: 0.8rem;
+    gap: 0.5rem;
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
+}
+
+.btnLogin {
+    font-family: 'Product Sans';
+    font-style: normal;
+    width: 100px;
+    height: 30px;
+    left: 1125px;
+    top: 63px;
+    background: none !important;
+    border: 2px solid #613D2B !important;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+    align-items: center;
+    text-align: center;
+    color: #613D2B !important;
+}
+
+.btnLogin:hover {
+    background-color: #613D2B !important;
+    color: #ffffff !important;
+}
+
+.btnRegister {
+    /* position: absolute;*/
+    font-family: 'Product Sans';
+    font-style: normal;
+    width: 100px;
+    height: 30px;
+    left: 1125px;
+    top: 63px;
+    background: none;
+    border: 2px solid #613D2B !important;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    background: #613D2B !important;
+} 
+
+.btnRegister:hover {
+    background-color: #3b271d !important;
+}
+
+.circle{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 12px 0px 15px 23px;
+}
+
+/* MODAL================= */
+.header-login p{
+    width: 95px;
+    height: 49px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    color: #613D2B
+}
+
+#emailInput {
+    width: 430px;
+    height: 50px;
+    border: 2px solid #613D2B;
+    border-radius: 5px;
+    background: rgba(224, 200, 200, 0.25);
+}
+
+#passwordInput{
+    width: 430px;
+    height: 50px;
+    border: 2px solid #613D2B;
+    border-radius: 5px;
+    background: rgba(224, 200, 200, 0.25);
+}
+#fullnameInput{
+    width: 430px;
+    height: 50px;
+    border: 2px solid #613D2B;
+    border-radius: 5px;
+    background: rgba(224, 200, 200, 0.25);
+}
+
+.btn-login button {
+    width: 430px;
+    height: 50px;
+    background: #613D2B;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.tx-modal {
+    width: 293px;
+    height: 25px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+/* PRODUCT DETAIL */
+.colContainer{
+    margin-top: 6rem;
+}
+.img-detail-product{
+    /* position: absolute; */
+    width: 25rem;
+}
+.btnAddToCart{
+    width: 97%;
+    background-color:#613D2B ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 0.3rem;
+}
+.btnAddToCart:hover {
+    background-color:#3b271d ;
+
+}
+.detailProductName{
+    color: #613D2B;
+    font-weight: bolder;
+}
+.detailProductStock{
+    color: #974A4A;
+    margin-bottom: 2rem;
+}
+.detailProductPrice{
+    color: #974A4A;
+    font-weight: bolder;
+    text-align: end;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+
+/* CART */
+.cartlist {
+    border-top: 1px solid #613D2B;
+    border-bottom: 1px solid #613D2B;
+}
+.flexcolend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.detailcartlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* PROFILE */
+.flexcolend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* dropdown */
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-menu{
+    margin-top: 15px !important;
+    border-radius: 10px;
+    margin-left: -100px !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 2px 2px 10px rgba(0, 0, 0, 0.25);;
+    width: 180px;
+}
+.dropdown-menu::before{
+    position: absolute;
+    content: '';
+    top: -23px;
+    right: 15px;
+    border: 12px solid;
+    border-color: transparent transparent #fff transparent;
+}
+.dropdown-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5px !important;
+    padding-right: 20px !important;
+}
+.dropdownText{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.navbarItem{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.navbarItem:hover{
+    color: black;
+}
+
+
+/* ADD-PRODUCT ================= */
+#add-product {
+    /* width: 958px; */
+    height: 400px;
+    left: 85px;
+}
+
+.left-side {
+    /* width: 550px; */
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.left-side h1 {
+    /* width: 133px; */
+    height: 22px;
+    left: 87px;
+    top: 230px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #613D2B;
+
+}
+
+.input {
+    box-sizing: border-box;
+    width: 620px;
+    height: 50px;
+    left: 87px;
+    top: 324px;
+    margin-bottom: 50px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 3px solid #613D2B;
+    border-radius: 5px;
+}
+
+.btn-product {
+    font-style: normal;
+    width: 620px;
+    height: 40px;
+    background: #613D2B;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card-side {
+    flex-wrap: wrap;
+    display: flex !important;
+    align-items: center;
+    margin: 10px auto;
+    padding: 70px auto;
+    padding-left: 30px;
+    gap: 10px;
+    flex-direction: row !important;
+}
+
+.card-side img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.addProductImage{
+    display: flex;
+    width: 620px;
+    height: 50px;
+    border: 3px solid #613D2B;
+    background-color: #E0C8C840;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #d29595   ;
+    margin-bottom: 40px;
+
+}
+
+.addProductRight img{
+    margin-top: -10px;
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.previewName{
+    display: flex;
+    width: 620px;
+    height: 50px;
+    border: 2px solid #613D2B;
+    background-color: #E0C8C840;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: black   ;
+    margin-bottom: 40px;
+}
+ 
+
+/* INCOME TRANSACTION */
+table{
+    border: 1px solid;
+    width: 10vw;
+}
+thead{
+    background-color: #e5e5e5;
+}
+th{
+    border: 1px solid  #e5e5e5;
+}
+td{
+    border: 1px solid #e5e5e5;
+}
+.tdPrice{
+    color: #061e99;
+}
+.statusSuccess{
+    color: #78a85a;
+}
+.statusCancel{
+    color: #e83939;
+}
+.statusWaiting{
+    color: #ff9900;
+}
+.statusWay{
+    color: #00d1ff;
+}
